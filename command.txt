@@ -1,0 +1,49 @@
+SSH keygen / key reset 
+rm ~/.ssh/known_hosts
+ssh -Y -i ~/.ssh/id_rsa_braincloud-multimedia -p 1038 root@brain-cluster-gpu10.dakao.io
+
+Connect to server
+ssh -Y -i ~/.ssh/id_rsa_braincloud-multimedia -p 1038 root@brain-cluster-gpu10.dakao.io
+
+Connect to external network
+http_proxy_on
+
+APT update 
+sudo apt-get update
+sudo apt-get upgrade
+
+Anaconda
+wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh && bash Anaconda3-5.0.1-Linux-x86_64.sh
+(Change the version part to the latest one)
+
+Install & Initial setting for GIT
+sudo apt-get install git
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+Install Pytorch
+http://pytorch.org/
+(If your os is linux and using conda then)
+conda install pytorch torch vision -c pytorch
+
+
+Dashboard
+http://multimedia.kakao.bc.9rum.cc/dashboard
+
+GPU guid
+http://gpu.is.daumkakao.io/docs/manual-instances/
+
+Install Emacs or nano (cause I’m a vim hater, I need one of these for default text editor)
+apt-get install emacs 
+
+
+Create virtual env with anaconda
+conda create -n VenvName python=3.6 anaconda
+(Change VenvName)
+source activate VenvName
+source deactivate
+
+
+
+
+

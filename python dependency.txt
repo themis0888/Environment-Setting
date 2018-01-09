@@ -1,0 +1,8 @@
+matplotlib
+beautifulsoup4
+numpy
+scipy
+requests
+opencv
+pillow
+ipython
