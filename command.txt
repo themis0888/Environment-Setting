@@ -15,7 +15,7 @@ APT update
 sudo apt-get update
 sudo apt-get upgrade
 
-Anaconda
+Install Anaconda
 wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh && bash Anaconda3-5.0.1-Linux-x86_64.sh
 (Change the version part to the latest one)
 
@@ -29,6 +29,10 @@ http://pytorch.org/
 (If your os is linux and using conda then)
 conda install pytorch torch vision -c pytorch
 
+Install with txt file
+pip3 install -r requirement.txt
+sudo apt-get install $(cat files_to_install.txt)
+conda install --yes --file requirements.txt
 
 Dashboard
 http://multimedia.kakao.bc.9rum.cc/dashboard
