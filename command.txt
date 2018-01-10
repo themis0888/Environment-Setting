@@ -8,6 +8,9 @@ ssh -Y -i ~/.ssh/id_rsa_braincloud-multimedia -p 1038 root@brain-cluster-gpu10.d
 Connect to external network
 http_proxy_on
 
+Send a file in local to server
+scp 
+
 APT update 
 sudo apt-get update
 sudo apt-get upgrade
