@@ -49,8 +49,3 @@ conda create -n VenvName python=3.6 anaconda
 (Change VenvName)
 source activate VenvName
 source deactivate
-
-
-
-
-
