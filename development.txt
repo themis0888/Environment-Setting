@@ -1,8 +1,7 @@
-matplotlib
-beautifulsoup4
-numpy
-scipy
-requests
-opencv
-pillow
-ipython
+1. Pycharm 
+
+2. ??
+
+3. Sublime text 
+
+4. Jupyter 
