@@ -8,3 +8,5 @@ pillow
 ipython
 tensorboardX
 tensorboard
+tensorflow-gpu
+pyro4
