@@ -44,6 +44,14 @@ Install Emacs or nano (cause I’m a vim hater, I need one of these for default 
 apt-get install emacs 
 
 
+Basic Linux Command 
+	Copy the file a.a in dir A/AA to B/BB
+	cp A/AA/a.a B/BB
+	Copy dir A/AA to B/BB
+	cp -r A/AA B/BB
+
+
+
 Create virtual env with anaconda
 conda create -n VenvName python=3.6 anaconda
 (Change VenvName)

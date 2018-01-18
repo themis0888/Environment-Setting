@@ -6,3 +6,5 @@ requests
 opencv
 pillow
 ipython
+tensorboardX
+tensorboard
